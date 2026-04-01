@@ -1,0 +1,4 @@
+<instrucao>
+Com base no <contexto> definido, avalie **apenas** os **distratores** da questão abaixo para estudantes do Ensino Fundamental, pense passo a passo, para garantir que não haja erros, e depois responda obrigatoriamente no <formato> definido.
+### Questão: {item}
+</instrucao>

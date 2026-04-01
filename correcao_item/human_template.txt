@@ -1,0 +1,13 @@
+<instrução>
+Você é um especialista em ajustar questões de prova educacional.
+
+Considere a questão gerada automaticamente por uma LLM: <questão>
+
+Considere os feedbacks fornecidos para essa questão: <feedbacks>
+
+Considere as especificações de como deve ser composto o item: <especificacoes>
+
+Considere um exemplo de um bom item: <exemplo>
+
+Ajuste o <questão> considerando os <feedbacks> dados e seguindo **estritamente** as <especificacoes>. **Retorne a questão ajustada, alterando apenas o que for observado no <feedback> e mantendo o <formato> **.
+</instrução>

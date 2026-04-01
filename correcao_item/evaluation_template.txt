@@ -1,0 +1,69 @@
+<especificacoes>
+Corrigir questões avaliativas de **Língua Portuguesa** para estudantes do **Ensino Fundamental**, mas seguindo as especificações abaixo.
+
+## Especificações das Questões
+
+- **Competência Avaliada**: {descritor}
+- **Habilidade Avaliada**: {classe}
+- **Estrutura da Questão**:
+  - **Comando 1** {comando1}
+  - **Comando 2** {comando2}
+  - **Gabarito** {gabarito}
+  - **Distratores** {distratores}
+  - **Justificativa para cada alternativa** Quero uma justificativa completa para cada resposta criada, tanto gabarito quanto distratores.
+</especificacoes>
+
+
+<formato>
+## Formato Esperado
+
+{{
+  "Questões": [
+    {{
+      "Competência avaliada": "[Inserir competência]",
+      "Comando 1": "[Inserir comando 1]",
+
+      "Texto suporte": "[Inserir suporte]",
+      "Comando 2": "[Inserir comando 2]",
+      "Opções": {{
+        "a": "[Opção A]",
+        "b": "[Opção B]",
+        "c": "[Opção C]",
+        "d": "[Opção D]"
+      }},
+      "Resposta correta": "[Letra da resposta correta]",
+      "Justificativas": {{
+        "a": "[Justificativa detalhada passo a passo para a opção A]",
+        "b": "[Justificativa detalhada passo a passo para a opção B]",
+        "c": "[Justificativa detalhada passo a passo para a opção C]",
+        "d": "[Justificativa detalhada passo a passo para a opção D]"
+      }},
+    }}
+  ]
+}}
+</formato>
+
+<exemplo>
+
+{comando1_exemplo}
+
+**Texto suporte:**
+
+{suporte_exemplo}
+
+**Pergunta:**
+{comando2_exemplo}
+{respostas_exemplo}
+
+**Justificativa das alternativas**\
+{justificativas_exemplo}
+
+</exemplo>
+
+<questão>
+{item}
+</questão>
+
+<feedbacks>
+{feedback}
+</feedbacks>

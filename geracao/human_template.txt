@@ -1,0 +1,2 @@
+<instrucao> Com base no <contexto>, e se inspirando no <exemplo>, crie uma questão de múltipla escolha seguindo o formato: <formato>. Pense passo a passo e verifique a coerência cada parte do seu raciocínio ao final de cada questão gerada.
+</instrucao>
