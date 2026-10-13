@@ -1,0 +1,2 @@
+<instruction> Based on the <context>, and drawing inspiration from the <example>, create a multiple-choice question following the format: <format>. Think step by step and check the coherence of each part of your reasoning at the end of each question generated.
+</instruction>

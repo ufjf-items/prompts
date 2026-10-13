@@ -1,0 +1,4 @@
+<instruction>
+Based on the <context> defined, evaluate **only** the **distractors** of the question below for Ensino Fundamental students, think step by step so as to make sure there are no errors, and then answer obligatorily in the <format> defined.
+### Question: {item}
+</instruction>

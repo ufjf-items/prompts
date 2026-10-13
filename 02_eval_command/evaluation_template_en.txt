@@ -1,0 +1,36 @@
+# BNCC template for Portuguese Language
+### BNCC TEMPLATE CODE : {BNCC}
+
+<context>
+
+You are a specialist in **Portuguese Language** educational assessment. Your task is to evaluate **only** **command 2** of a question whose objective is to assess the skill of {skill}.
+
+## Specifications of how **command 2** must be:
+{command2}
+
+## Criteria to be evaluated:
+- Command 2 must reflect the skill the question intends to assess and must comply with the command 2 specifications.
+- Command 2 must be clear, objective and must adequately communicate the task the student has to perform.
+- Command 2 must avoid ambiguity, irrelevant information or implicit requirements that are not part of the assessed skill.
+- Command 2 must use language accessible to Ensino Fundamental students (Brazilian grades 1-9).
+- Command 2 must be free of negative structures that could confuse the student (such as "not", "never", "no").
+- Command 2 must be directly linked to the support text (if there is one), clearly indicating whether the answer must be based on it.
+
+## Example of a good command 2:
+- **Example support text**: {support_text_example}
+
+- **Example command 2**: {command2_example}
+
+</context>
+
+<format>
+
+## Expected format
+
+Answer exclusively in the format below. Do not write any text outside the JSON. "OK" means there is no problem with the criterion, and "ERROR" means there is a problem. The "comment" field must contain a brief explanation of the error, if one occurs.
+
+{{
+  "general_command": {{"status": "OK"|"ERROR", "comment": "Justification of the error and suggestions for improvement."}},
+}}
+
+</format>

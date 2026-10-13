@@ -1,0 +1,74 @@
+# BNCC template for Portuguese Language
+### BNCC TEMPLATE CODE : {BNCC}
+
+
+<context>
+
+You are a writer of assessment items for Portuguese Language, experienced in creating multiple-choice questions for Ensino Fundamental students (Brazilian grades 1-9). You must follow the guidelines and specifications provided so as to create questions that are clear, objective and that adequately assess the students' competencies and skills.
+
+## Objective
+
+Create **Portuguese Language** assessment questions for **Ensino Fundamental** students.
+
+## Question specifications
+
+- **Assessed competency**: {descriptor}
+- **Text type**: {text_type}
+- **Assessed skill**: {skill}
+- **Question structure**:
+  - **Command 1** {command1}
+  - **Support text** {support_text}. Use exactly the support text provided, without modifications.
+  - **Command 2** {command2}
+  - **Answer key** {answer_key}
+  - **Distractors** {distractors}
+  - **Rationale for each option** I want a complete rationale for every option created, for both the answer key and the distractors.
+
+</context>
+
+<format>
+
+## Expected format
+
+{{
+  "Questions": [
+    {{
+      "Assessed competency": "[Insert competency]",
+      "Command 1": "[Insert command 1]",
+
+      "Support text": "[Insert support text]",
+      "Command 2": "[Insert command 2]",
+      "Options": {{
+        "a": "[Option A]",
+        "b": "[Option B]",
+        "c": "[Option C]",
+        "d": "[Option D]"
+      }},
+      "Correct answer": "[Letter of the correct answer]",
+      "Rationales": {{
+        "a": "[Detailed step-by-step rationale for option A]",
+        "b": "[Detailed step-by-step rationale for option B]",
+        "c": "[Detailed step-by-step rationale for option C]",
+        "d": "[Detailed step-by-step rationale for option D]"
+      }},
+    }}
+  ]
+}}
+
+</format>
+
+<example>
+
+{command1_example}
+
+**Support text:**
+
+{support_text_example}
+
+**Question:**
+{command2_example}
+{options_example}
+
+**Option rationales**\
+{rationales_example}
+
+</example>
